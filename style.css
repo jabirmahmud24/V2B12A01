@@ -122,16 +122,18 @@
 
 /* Section 3 style */
 .main-sec3{
+    font-family: 'Inter' sans-serif;
     background-color: #1b13b810;
+    border-radius: 20px;
     max-width: 1140px;
     max-height: 306px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px auto;
-    font-family: 'Inter' sans-serif;
-    
- 
+}
+.main-sec3-text{
+    font-family: 'Inter', sans-serif;
 }
 .joined-text{
     padding-top: 50px;
@@ -160,3 +162,38 @@
     color: #00000050
     
 }
+/* Card section */
+.main-sec4{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 116px;
+    
+}
+
+.users-say{
+    background-color: aliceblue;
+    max-height: 386px;
+    max-width: 243px;
+    border-radius: 12px;
+   
+    
+}
+.icon-image{
+    display: flex;
+    flex-direction: row;
+    
+}
+/* round image */
+.image-section img{
+    border-radius: 50%;
+
+}
+.image-section{
+    flex-direction:row ;
+}
+
+
