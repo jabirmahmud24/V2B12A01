@@ -76,8 +76,9 @@
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
+    text-decoration: none;
 }
-.nav a{
+.nav a, .footer-div a {
     text-decoration: none;
 }
 .header-sec1{
@@ -287,3 +288,30 @@ border-radius: 10px;
     padding: 10px;
 }
 
+/* Footer Styles */
+.footer-third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.footer-list a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-logo h3{
+    font-family: 'Inter'sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    
+}
