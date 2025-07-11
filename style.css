@@ -16,6 +16,7 @@
 }
 /* Shared Style */
 .btn-primary{
+    
     background-color: #4E47FF;
     font-weight: bold;
     color: white;
@@ -199,26 +200,47 @@
 /* Big Image Section */
 .main-sec5{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+
     max-width: 1140PX;
     max-height: 696px;
     background-color: antiquewhite;
-    margin: 0px auto;
-    align-items: center;
-    justify-content: center;
-    
+    margin: 0px auto;   
 }
+
 .main-sec5-text{
     padding: 20px;
 }
+
 .main-sec5-text h1{
     font-size: 50px;
     font-weight: 800;
 
 }
+
 /* big image */
 .main-sec5 img{
     border-radius: 2%;
     
 
+}
+
+/* Section 6 */
+.main-sec6{
+    padding-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.get-in-touch form{
+display: flex;
+flex-direction: column;
+}
+.get-in-touch-title{
+    font-size: 90px;
+    font-weight: 600;
 }
