@@ -130,7 +130,11 @@
 
 }
 
-
+.joined-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .main-sec-3-boro-text{
@@ -153,6 +157,7 @@
 }
 
 .main-sec-3-boro-text h2{
+    font-family: 'Inter' 'sans-serif';
     font-size: 80px;
     color: #4E47FF;
  }
