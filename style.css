@@ -234,9 +234,13 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
+    background-color: #4d41fb08;
+    max-width: 1140px;
+    margin: 0 auto;
+    
     
 }
-.get-in-touch form{
+.get-in-touch form, fieldset{
 display: flex;
 flex-direction: column;
 }
@@ -244,3 +248,42 @@ flex-direction: column;
     font-size: 90px;
     font-weight: 600;
 }
+.get-in-touch input[type="email"]{
+padding: 32px 20px;
+height: 32px;
+width: 497px;
+display: block;
+background-color: white;
+margin-bottom: 24px;
+border: none;
+border-radius: 10px;
+}
+.get-in-touch input[type="text"]{
+padding: 32px 20px;
+height: 32px;
+width: 497px;
+display: block;
+background-color: white;
+margin-bottom: 24px;
+border: none;
+border-radius: 10px;
+}
+.get-in-touch textarea{
+padding: 32px 20px;
+height: 167px;
+width: 497px;
+display: block;
+background-color: white;
+margin-bottom: 24px;
+border: none;
+border-radius: 10px;
+}
+
+.get-in-touch fieldset{
+    font-family: 'Inter' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+}
+
